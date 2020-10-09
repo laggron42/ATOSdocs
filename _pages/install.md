@@ -1,6 +1,7 @@
 ---
 permalink: /install/
 title: "Installation"
+toc: true
 ---
 
 ## Invitez le bot
