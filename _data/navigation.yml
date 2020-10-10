@@ -1,9 +1,23 @@
 main:
+  - title: Ajouter Botnol
+    url: https://discord.com/oauth2/authorize?client_id=612906116451532821&scope=bot&permissions=268692560
+  - title: Installation
+    url: /install-red/
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+
+docs:
+  - title: Installation et configuration
+    children:
+      - title: "Installation"
+        url: /install-red/
+      - title: "Configuration des tournois"
+        url: /config-tournaments/
+  - title: Configurer un tournoi
+    children:
+      - title: "Création d'un tournoi Challonge"
+        url: /challonge-setup/
+      - title: "Setup du tournoi sur Botnol"
+        url: /tournament-setup/

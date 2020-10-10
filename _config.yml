@@ -4,59 +4,26 @@
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
+minimal_mistakes_skin: "default"
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+locale: "fr"
 title: Botnol Discord bot
+title_separator: "-"
 subtitle: Organisez vos tournois sur Discord
 name: &name "El Laggron"
-email: laggron42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Un bot Discord complet pour administrer votre serveur et gérer des tournois.
-twitter_username: laggron42
-github_username: retke
-minimal_mistakes_skin: default
+url: https://botnol.laggron.red
+baseurl: "/"
+repository: retke/BotnolDocs
 search: true
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Paris
-locale: "fr-FR"
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+# author info
+twitter_username: laggron42
+github_username: retke
 
 author:
   name: &name
@@ -76,6 +43,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/retke/Laggrons-Dumb-Cogs"
 
+# footer
 footer:
   links:
     - label: "Discord"
@@ -100,9 +68,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -110,6 +75,24 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid
@@ -117,3 +100,22 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  toc_levels: 1..6
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Paris
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
