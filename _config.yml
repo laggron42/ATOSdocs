@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 
 theme: minimal-mistakes-jekyll
-# remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site settings
