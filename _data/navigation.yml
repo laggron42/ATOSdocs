@@ -21,3 +21,7 @@ docs:
         url: /challonge-setup/
       - title: "Setup du tournoi sur Botnol"
         url: /tournament-setup/
+      - title: "Inscriptions et check-in"
+        url: /register-checkin-setup/
+      - title: "Seeding et upload"
+        url: /seeding-upload/

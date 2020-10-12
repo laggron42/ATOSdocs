@@ -5,7 +5,8 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 
-remote_theme: "mmistakes/minimal-mistakes@4.20.2"
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site settings
@@ -14,7 +15,7 @@ title: Botnol Discord bot
 title_separator: "-"
 subtitle: Organisez vos tournois sur Discord
 name: &name "El Laggron"
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Un bot Discord complet pour administrer votre serveur et gérer des tournois.
 url: https://botnol.laggron.red
 baseurl: "/"
@@ -62,7 +63,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -70,14 +71,14 @@ defaults:
       read_time: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
   # _docs
   - scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
       layout: single
@@ -93,6 +94,8 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+include:
+  - "_pages"
 
 category_archive:
   type: liquid
@@ -107,8 +110,8 @@ kramdown:
   toc_levels: 1..6
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 10 # amount of posts to show
+# paginate_path: /posts/page:num/
 timezone: Europe/Paris
 
 # Plugins (previously gems:)
