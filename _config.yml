@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 
 theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site settings
@@ -32,10 +32,10 @@ author:
   bio: "Laggron, streamer et développeur de bots Discord"
   links:
     - label: "Discord"
-      icon: "fas fa-fw fa-discord"
+      icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/DC6zCsZ"
     - label: "Twitch"
-      icon: "fas fa-fw fa-discord"
+      icon: "fab fa-fw fa-twitch"
       url: "https://twitch.tv/el_laggron"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -48,10 +48,10 @@ author:
 footer:
   links:
     - label: "Discord"
-      icon: "fas fa-fw fa-discord"
+      icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/DC6zCsZ"
     - label: "Twitch"
-      icon: "fas fa-fw fa-discord"
+      icon: "fab fa-fw fa-twitch"
       url: "https://twitch.tv/el_laggron"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -86,6 +86,8 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      toc: true
+      toc_sticky: true
       sidebar:
         nav: "docs"
 

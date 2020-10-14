@@ -5,8 +5,10 @@ main:
     url: /install-red/
   - title: "Posts"
     url: /posts/
-  - title: "About"
+  - title: "A propos"
     url: /about/
+  - title: "Red-DiscordBot"
+    url: /what-is-red/
 
 docs:
   - title: Installation et configuration
