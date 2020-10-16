@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /what-is-red/
 title: Powered by Red
 header:
@@ -11,6 +11,7 @@ header:
     - label: "<i class='fas fa-info-circle'></i> En savoir plus"
       url: "https://github.com/Cog-Creators/Red-DiscordBot/"
 author_profile: true
+classes: wide
 excerpt: >
   Botnol est une instance de Red-DiscordBot, un bot modulaire open-source, accessible à tous !
 ---
@@ -31,7 +32,9 @@ Il existe plus de 300 modules approuvés, offrant toutes les fonctions dont vous
 
 ## Et les tournois dans tout ça ?
 
-Toutes les fonctions et commandes liées aux tournois ne sont qu'un simple module pour ce bot ! Ce module nommé "Tournaments" fait partie de ma collection de modules installables pour Red : **[Laggron's Dumb Cogs](https://github.com/retke/Laggrons-Dumb-Cogs)** !
+Toutes les fonctions et commandes liées aux tournois ne sont qu'un simple module pour ce bot ! Ce module nommé "Tournaments" fait partie de ma collection, ou repository, de modules installables pour Red : **[Laggron's Dumb Cogs](https://github.com/retke/Laggrons-Dumb-Cogs)** !
+
+[![](https://raw.githubusercontent.com/retke/Laggrons-Dumb-Cogs/master/.github/RESSOURCES/BANNERS/Base_banner.png)](https://github.com/retke/Laggrons-Dumb-Cogs)
 
 Parmi cette collection de modules se trouve également WarnSystem, le système de modération intégré au bot (dont vous vous servez probablement pas, mais j'avais quand même envie de le noter, c'est mon 2e module majeur).
 
@@ -51,30 +54,31 @@ Vous n'avez qu'à suivre les instructions d'installation pour Red sur votre OS :
 
 Une fois que c'est installé, prenez un peu le temps de découvrir comment il fonctionne. Lisez [le guide d'introduction à Red](https://docs.discord.red/en/stable/getting_started.html) *que j'ai écrit btw* et explorez un peu les modules disponible.
 
+Ensuite, plus qu'à installer mon repo :
+
 ### Installer Tournaments sur Red
 
 `[p]` est considéré comme votre préfixe.
 {: .notice--info}
 
 1. Assurez vous que Downloader est chargé :
-   ```
-   [p]load downloader
-   ```
+
+   `[p]load downloader`
 
 2. Ajoutez mon repository, Laggron's Dumb Cogs :
-   ```
-   [p]repo add Laggrons-Dumb-Cogs https://github.com/retke/Laggrons-Dumb-Cogs
-   ```
+   
+   `[p]repo add Laggrons-Dumb-Cogs https://github.com/retke/Laggrons-Dumb-Cogs`
+
    N'oubliez pas de confirmer la notice en disant "I agree".
 
 3. Installez Tournaments :
-   ```
-   [p]cog install Laggrons-Dumb-Cogs tournaments
-   ```
+
+   `[p]cog install Laggrons-Dumb-Cogs tournaments`
 
 4. Chargez le cog !
-   ```
-   [p]load tournaments
-   ```
+
+   `[p]load tournaments`
 
 Et voilà, Tournaments est prêt à être utilisé, aucune configuration supplémentaire n'est nécessaire !
+
+Vous pouvez vous rendre sur [laggron.red](https://laggron.red/) pour la documentation détaillée, en anglais, de mes cogs et leur usage.

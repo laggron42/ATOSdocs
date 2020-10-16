@@ -10,11 +10,11 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site settings
-locale: "fr"
+locale: "fr-FR"
 title: Botnol Discord bot
 title_separator: "-"
 subtitle: Organisez vos tournois sur Discord
-name: &name "El Laggron"
+name: "El Laggron"
 description: >-
   Un bot Discord complet pour administrer votre serveur et gérer des tournois.
 url: https://botnol.laggron.red
@@ -27,9 +27,9 @@ twitter_username: laggron42
 github_username: retke
 
 author:
-  name: &name
+  name: "El Laggron"
   avatar: "/assets/images/spyro.jpg"
-  bio: "Laggron, streamer et développeur de bots Discord"
+  bio: "Laggron, Smash player, streamer et développeur de bots Discord"
   links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
@@ -89,7 +89,11 @@ defaults:
       toc: true
       toc_sticky: true
       sidebar:
-        nav: "docs"
+        - nav: "docs"
+        - title: "Besoin d'aide ?"
+          text: >-
+            Posez vos questions, envoyez vos suggestion ou reportez des bugs :
+            [![widget](https://discord.com/api/guilds/705122849756545064/widget.png?style=banner3)](https://discord.gg/DC6zCsZ)
 
 # Collections
 collections:

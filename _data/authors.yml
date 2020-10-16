@@ -1,0 +1,17 @@
+Wonderfall:
+  name: "Wonderfall"
+  avatar: "/assets/images/wonderfall.jpg"
+  bio: "Smash player, tech enthusiast, medical student"
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.com/users/328896148876296194"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Wonderfall_SSB"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Wonderfall"
+    - label: "Website"
+      icon: "fa fa-fw fa-globe"
+      url: "https://wonderfall.space"
