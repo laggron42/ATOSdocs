@@ -1,9 +1,11 @@
 ---
 permalink: /about/
 title: "À propos"
+classes: wide
 authors:
 - El Laggron
 - Wonderfall
+- Xyleff
 ---
 
 Botnol est inspiré du bot [A.T.O.S (Automated Tournament Organizer for Smash)](https://github.com/Wonderfall/ATOS), codé par Wonderfall ! Toutes les idées et design original lui reviennent directement !

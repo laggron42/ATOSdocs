@@ -5,9 +5,9 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "dark"
 
 # Site settings
 locale: "fr-FR"
@@ -102,6 +102,11 @@ collections:
     permalink: /:collection/:path/
 include:
   - "_pages"
+
+head_scripts:
+  - https://identity.netlify.com/v1/netlify-identity-widget.js
+footer_scripts:
+  - /assets/js/authentification-redirect.js
 
 category_archive:
   type: liquid

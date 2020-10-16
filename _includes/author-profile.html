@@ -10,8 +10,12 @@
             {% endif %}
         {% endfor %}
     {% else %}
-        {% assign _author = page.author | default: site.author %}
-        {% assign _author = site.data.authors[_author] | default: _author %}
+        {% if page.author == site.author.name %}
+            {% assign _author = site.author %}
+        {% else %}
+            {% assign _author = page.author | default: site.author %}
+            {% assign _author = site.data.authors[_author] | default: _author %}
+        {% endif %}
         {% assign authors = authors | push: _author %}
     {% endif %}
     {% for author in authors %}
