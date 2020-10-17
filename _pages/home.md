@@ -4,7 +4,8 @@ permalink: /
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_filter: 0.3
+  overlay_image: /assets/images/homepage.png
   actions:
     - label: "<i class='fas fa-download'></i> Installer maintenant"
       url: "/install-red/"

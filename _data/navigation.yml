@@ -1,8 +1,8 @@
 main:
   - title: Ajouter A.T.O.S.
-    url: https://discord.com/oauth2/authorize?client_id=612906116451532821&scope=bot&permissions=268692560
-  - title: Installation
     url: /install-red/
+  - title: Docs
+    url: /index/
   - title: Posts
     url: /posts/
   - title: Red-DiscordBot
