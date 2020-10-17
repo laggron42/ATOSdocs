@@ -13,7 +13,7 @@ header:
 author_profile: true
 classes: wide
 excerpt: >
-  Botnol est une instance de Red-DiscordBot, un bot modulaire open-source, accessible à tous !
+  A.T.O.S. est une instance de Red-DiscordBot, un bot modulaire open-source, accessible à tous !
 ---
 
 ## Qu'est-ce que Red bot ?

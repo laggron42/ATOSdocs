@@ -1,5 +1,5 @@
 main:
-  - title: Ajouter Botnol
+  - title: Ajouter A.T.O.S.
     url: https://discord.com/oauth2/authorize?client_id=612906116451532821&scope=bot&permissions=268692560
   - title: Installation
     url: /install-red/
@@ -25,7 +25,7 @@ docs:
         url: /seeding-upload/
       - title: Création d'un tournoi Challonge
         url: /challonge-setup/
-      - title: Setup du tournoi sur Botnol
+      - title: Setup du tournoi sur A.T.O.S.
         url: /tournament-setup/
   - title: Le déroulement du tournoi
     children:

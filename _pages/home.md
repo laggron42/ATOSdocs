@@ -35,7 +35,7 @@ row3:
     alt: "powered by Red"
     title: "Powered by Red-DiscordBot"
     excerpt: >
-      Botnol est une instance de Red-DiscordBot, un bot open-source hébergeable. <br/>
+      A.T.O.S. est une instance de Red-DiscordBot, un bot open-source hébergeable. <br/>
       Les fonctions de tournois ne sont qu'un module, faisant partie de ma collection de modules, <a
       href="https://github.com/retke/Laggrons-Dumb-Cogs">Laggron's Dumb Cogs</a>.
     url: "/what-is-red/"
