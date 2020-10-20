@@ -45,6 +45,8 @@ docs:
     children:
       - title: Que faire en cas de bugs
         url: /troubleshooting/
+      - title: Liste des commandes
+        url: /command-list/
       - title: Héberger le bot (Red)
         url: /what-is-red/
       - title: A propos

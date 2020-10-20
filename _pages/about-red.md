@@ -36,8 +36,6 @@ Toutes les fonctions et commandes liées aux tournois ne sont qu'un simple modul
 
 [![](https://raw.githubusercontent.com/retke/Laggrons-Dumb-Cogs/master/.github/RESSOURCES/BANNERS/Base_banner.png)](https://github.com/retke/Laggrons-Dumb-Cogs)
 
-Parmi cette collection de modules se trouve également WarnSystem, le système de modération intégré au bot (dont vous vous servez probablement pas, mais j'avais quand même envie de le noter, c'est mon 2e module majeur).
-
 ## Pourquoi utiliser Red, et ne pas créer un bot dédié ?
 
 Même si j'ai les capacités de faire mon propre bot, on voit aujourd'hui énormément de bots dont 90% des fonctions sont les mêmes partout (modération, audio, commandes...), avec 10% de fonctions uniques qui intéressent les gens, on retrouve donc plein de bots différents pour une seule fonction sur les serveurs.

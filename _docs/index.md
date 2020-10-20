@@ -28,5 +28,6 @@ classes: wide
 ## Divers
 
 - [Que faire en cas de bugs](/troubleshooting/)
+- [Liste des commandes](/command-list/)
 - [Héberger le bot (Red)](/what-is-red/)
 - [A propos](/about/)
