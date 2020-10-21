@@ -22,6 +22,12 @@ baseurl: "/"
 repository: retke/ATOSDocs
 search: true
 
+# Analytics
+analytics:
+  provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "UA-181005502-1" # Replace this with your ID, or delete
+
 # author info
 twitter_username: laggron42
 github_username: retke
