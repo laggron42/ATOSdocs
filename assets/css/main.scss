@@ -10,3 +10,38 @@
 html {
     font-size: 1.15em;
 }
+
+.notice, .notice--primary, .notice--info, .notice--warning,
+.notice--success, .notice--danger {
+  color: inherit;
+  code {
+    background-color: transparentize($color: $background-color, $amount: .8);
+  };
+  a {
+    color: inherit;
+  }
+}
+
+.notice {
+    background-color: #4b5871;
+}
+
+.notice--primary {
+  background-color: #829394;
+}
+
+.notice--info {
+  background-color: #5f9eb1;
+}
+
+.notice--warning {
+  background-color: #b78f5a;
+}
+
+.notice--success {
+  background-color: #78a578;
+}
+
+.notice--danger {
+  background-color: #af6f6f;
+}
