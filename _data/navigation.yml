@@ -45,6 +45,8 @@ docs:
     children:
       - title: Que faire en cas de bugs
         url: /troubleshooting/
+      - title: Permissions personnalisées
+        url: /permissions/
       - title: Liste des commandes
         url: /command-list/
       - title: Héberger le bot (Red)
