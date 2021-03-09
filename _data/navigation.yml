@@ -17,6 +17,8 @@ docs:
         url: /install-red/
       - title: Configuration des tournois
         url: /config-tournaments/
+      - title: Gérer plusieurs configurations
+        url: /config-manager/
   - title: Configurer un tournoi
     children:
       - title: Inscriptions et check-in
