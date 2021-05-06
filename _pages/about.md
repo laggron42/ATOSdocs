@@ -12,4 +12,4 @@ A.T.O.S. est un rewrite du bot original [A.T.O.S de Wonderfall](https://github.c
 
 Le module Tournaments, le code des tournois, a été codé par El Laggron avec l'aide précieuse de Xyleff, Wonderfall, et de l'équipe Red-DiscordBot !
 
-A.T.O.S. est une instance de [Red, un bot Discord open-source modulaire](/fr/what-is-red/), codé par sa communauté, [Cog-Creators](https://github.com/Cog-Creators), dont je fais partie (Laggron).
+A.T.O.S. est une instance de [Red, un bot Discord open-source modulaire](/what-is-red/), codé par sa communauté, [Cog-Creators](https://github.com/Cog-Creators), dont je fais partie (Laggron).
