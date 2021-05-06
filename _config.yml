@@ -21,6 +21,13 @@ url: https://atos.laggron.red
 baseurl: "/"
 repository: retke/ATOSDocs
 search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: AGWM0E6USE
+  index_name: atos
+  search_only_api_key: 75af6077e4eaf8fcfd171e462cedf505
+  powered_by: true
 
 # Analytics
 analytics:
@@ -109,11 +116,6 @@ collections:
     permalink: /:collection/:path/
 include:
   - "_pages"
-
-head_scripts:
-  - https://identity.netlify.com/v1/netlify-identity-widget.js
-footer_scripts:
-  - /assets/js/authentification-redirect.js
 
 category_archive:
   type: liquid
